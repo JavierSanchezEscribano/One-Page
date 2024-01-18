@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="inicio">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./logo.png" alt="logo" class="logo">
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#inicio" class="scroll-link">inicio</a>
+              </li>
+              <li>
+                <a href="#compañia" class="scroll-link">compañia</a>
+              </li>
+              <li>
+                <a href="#servicios" class="scroll-link">servicios</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">tours</a>
+              </li>
+            </ul>            
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>proyecto scroll</h1>
+          <p>Diseño web de una sola página, en la que toda la información se encuentra solamente aqui.
+            Usamos los links del menú para acceder a distintas partes de la web y no tener que cambiar
+            de página cada vez que queramos ver otra sección.
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">
+            Explorar tours
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- compañia -->
+    <section id="compañia" class="section">
+      <div class="title">
+        <h2>quienes <span> somos</span></h2>
+      </div>
+    </section>
+    <!-- servicios -->
+    <section id="servicios" class="section">
+      <div class="title">
+        <h2>nuestros <span> servicios</span></h2>
+      </div>
+    </section>
+    <!-- tours -->
+    <section id="tours" class="section">
+      <div class="title">
+        <h2>nuestros <span> tours</span></h2>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; diseños web Baobab <span id="date"> </span> . Todos los derechos reservados
+      </p>
+    </footer>
+    <!-- boton volver arriba -->
+    <a href="#inicio" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
